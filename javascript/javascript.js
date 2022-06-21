@@ -1,4 +1,5 @@
 // DOM
+// Acceder a los elementos/"agruparlos"
 
 document.querySelector('h3')
 console.log(document.querySelector('.subtitulo'))
@@ -7,11 +8,13 @@ console.log(document.getElementById('parrafo'))
 console.log(document.querySelectorAll('.subtitulo'))
 
 // DOM
+// Que aparezca otra frase
 
 const parrafo = document.querySelector('#parrafo')
 parrafo.innerHTML = '<b>Ser celíaco/a no tiene por qué ser difícil</b>'
 
 // DOM
+// Acceder a los elementos
 
 console.log(document.getElementById('descripcion'))
 console.log(document.getElementById('info'))
